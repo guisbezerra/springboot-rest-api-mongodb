@@ -50,3 +50,48 @@ A aplicação utiliza a seguinte conexão:
 
 ```text
 mongodb://localhost:27017/oficina_mongo
+```
+
+## ⚙️ Como executar
+
+### Pré-requisitos
+
+- Java 17
+- Maven
+- MongoDB
+
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/guisbezerra/springboot-rest-api-mongodb.git
+```
+
+### 2. Acesse o diretório do projeto
+
+```bash
+cd springboot-rest-api-mongodb
+```
+
+### 3. Inicie o MongoDB
+
+Certifique-se de que o MongoDB esteja em execução localmente na porta padrão `27017`.
+
+### 4. Execute a aplicação
+
+Utilizando o Maven Wrapper:
+
+```bash
+./mvnw spring-boot:run
+```
+
+No Windows:
+
+```bash
+mvnw.cmd spring-boot:run
+```
+
+A aplicação será iniciada utilizando a configuração definida no projeto.
+
+## 🎯 Objetivo
+
+Projeto desenvolvido para consolidar conhecimentos em desenvolvimento backend com Java e Spring Boot, explorando a construção de APIs REST, persistência de dados NoSQL com MongoDB e organização de aplicações utilizando uma arquitetura em camadas.
